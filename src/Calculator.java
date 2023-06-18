@@ -189,7 +189,18 @@ public class Calculator extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    
+
+    private void plusBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plusBtnActionPerformed
+        
+        int num1 = Integer.parseInt(txtNum1.getText());
+        int num2 = Integer.parseInt(txtNum2.getText());
+        
+        int ans = num1 + num2;
+        
+        result.setText(String.valueOf(ans));
+        
+    }//GEN-LAST:event_plusBtnActionPerformed
+
 
     /**
      * @param args the command line arguments
