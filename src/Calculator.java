@@ -200,6 +200,17 @@ public class Calculator extends javax.swing.JFrame {
         result.setText(String.valueOf(ans));
         
     }//GEN-LAST:event_plusBtnActionPerformed
+	
+	
+	private void subtrBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subtrBtnActionPerformed
+        
+        int num1 = Integer.parseInt(txtNum1.getText());
+        int num2 = Integer.parseInt(txtNum2.getText());
+        
+        int ans = num1 - num2;
+        
+        result.setText(String.valueOf(ans));
+    }//GEN-LAST:event_subtrBtnActionPerformed
 
 
     /**
