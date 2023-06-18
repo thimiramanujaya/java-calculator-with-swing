@@ -221,6 +221,16 @@ public class Calculator extends javax.swing.JFrame {
         
         result.setText(String.valueOf(ans));
     }//GEN-LAST:event_multiplyBtnActionPerformed
+	
+	
+	private void divdBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divdBtnActionPerformed
+        float num1 = Float.parseFloat(txtNum1.getText());
+        float num2 = Float.parseFloat(txtNum2.getText());
+        
+        float ans = num1 / num2;
+        
+        result.setText(String.valueOf(ans));
+    }//GEN-LAST:event_divdBtnActionPerformed
 
 
     /**
