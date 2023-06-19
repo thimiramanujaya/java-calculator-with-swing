@@ -231,6 +231,14 @@ public class Calculator extends javax.swing.JFrame {
         
         result.setText(String.valueOf(ans));
     }//GEN-LAST:event_divdBtnActionPerformed
+	
+	
+	private void clearBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearBtnActionPerformed
+        
+        txtNum1.setText(null);
+        txtNum2.setText(null);
+        result.setText("0");
+    }//GEN-LAST:event_clearBtnActionPerformed
 
 
     /**
